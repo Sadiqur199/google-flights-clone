@@ -40,12 +40,14 @@ const Main = () => {
     const filteredSuggestions = airports.filter(
       (airport) =>
         airport.skyId.toLowerCase().includes(searchValue.toLowerCase()) ||
+      airport.entityId.includes(searchValue) ||
         airport.presentation.title.toLowerCase().includes(searchValue.toLowerCase())
     );
     setSuggestions(filteredSuggestions);
     const exactMatch = filteredSuggestions.find(
       (airport) =>
         airport.skyId.toLowerCase() === searchValue.toLowerCase() ||
+      airport.entityId.includes(searchValue) ||
         airport.presentation.title.toLowerCase() === searchValue.toLowerCase()
     );
     setFilteredAirport(exactMatch || null);
