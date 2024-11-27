@@ -20,7 +20,7 @@ const Main = () => {
           {
             params: { query: "new", locale: "en-US" },
             headers: {
-              "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
+              "X-RapidAPI-Key": '87da0421b8msh892eed53424f292p1e3bd2jsn9cfd26d8dbb4',
               "X-RapidAPI-Host": "sky-scrapper.p.rapidapi.com",
             },
           }
