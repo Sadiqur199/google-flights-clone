@@ -26,3 +26,4 @@ Axios: For API requests and handling responses
 Currently, two official plugins are available:
 
 - [Google_Flight](https://googleflightcolne.netlify.app/)
+- [Loom Video](https://www.loom.com/share/4ce3c0210a59417c9bc662f9c93c95f6?sid=39ede7f3-c4a1-44ee-adfb-dce2590244c0)
